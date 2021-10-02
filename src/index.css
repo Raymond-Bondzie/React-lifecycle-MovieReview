@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  padding: 10px;
+}
+
+.results{
+  text-align: center;
+  transition: 1s;
+  margin: 0;
+}
+.results:hover{
+  background: linear-gradient(rgba(26, 52, 221, 0.3), rgba(14, 204, 55, 0.1));
+  text-indent: 10px ;
+  border-radius: 28px;
+  box-shadow: 10px 5px 5px rgb(49, 41, 56);
+  text-shadow:5px 5px 5px  grey;
+}
+
+.classNav{
+  text-align: center;
+  font-size: 50px;
+  background-color: tomato;
+  color: gray;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.F-results{
+  text-align: center;
+
+}
+
+.funcNav{
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  transition: 3s;
+}
+
+.funcNav:hover{
+  letter-spacing: 10px;
+}
